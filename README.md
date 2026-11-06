@@ -1,0 +1,1 @@
+# magister-pack-opener-privacy
