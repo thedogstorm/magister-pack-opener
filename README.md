@@ -56,7 +56,7 @@ The extension uses information from Magister to provide its pack-opening functio
 
 For questions, feedback or support, visit:
 
-[Storm Productions Group](https://stormproductionsgroup.base44.app/)
+[Storm Productions Group](**https://stormproductionsgroup.base44.app/**https://stormproductionsgroup.base44.app/contact)
 
 ---
 
