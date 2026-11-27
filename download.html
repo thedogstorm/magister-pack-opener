@@ -4,7 +4,7 @@
   <title>Download Extension</title>
 </head>
 <body>
-  <p>Your download should start automatically.</p>
+  <p id="message">Your download is starting...</p>
 
   <script>
     window.onload = () => {
@@ -12,6 +12,13 @@
       link.href = "./magister-pack-opener_V1_8_12.zip";
       link.download = "magister-pack-opener.zip";
       link.click();
+
+      document.getElementById("message").textContent =
+        "Download started — you can close this tab.";
+
+      setTimeout(() => {
+        window.close();
+      }, 1500);
     };
   </script>
 </body>
