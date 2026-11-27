@@ -11,14 +11,12 @@
       const link = document.createElement("a");
       link.href = "./magister-pack-opener_V1_8_12.zip";
       link.download = "magister-pack-opener.zip";
+      document.body.appendChild(link);
       link.click();
+      link.remove();
 
       document.getElementById("message").textContent =
         "Download started — you can close this tab.";
-
-      setTimeout(() => {
-        window.close();
-      }, 1500);
     };
   </script>
 </body>
